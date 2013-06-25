@@ -1,0 +1,28 @@
+#about{
+	padding-top:100px;
+}
+#about-section{
+	padding:0 0 50px 0;
+}
+section ol li p{
+	margin: 0 0 0 20px;
+}
+section ol li{
+	padding:5px 0;
+}
+#principles{
+	background-color:#E9F0F4;
+	position:relative;
+	padding:80px 0 90px;
+}
+section h3{
+ 	text-align:center;
+}
+section .row:nth-child(2) ul{
+	padding: 0 0 0 50px;
+}
+section#entre div.row{
+	margin-bottom:50px;
+	padding-top:50px;
+	border-top:1px dotted #ccc;
+}
