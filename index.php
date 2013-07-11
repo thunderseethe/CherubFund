@@ -97,86 +97,10 @@ $(document).ready(function(){
 <!-- End Header -->
 
 <!-- Start Slider -->
-<section id="slider">
-    <div class="fullwidthbanner-container">
-        <div class="fullwidthbanner">
-            
-        	<ul>
-            
-            	<!-- THE FIRST SLIDE -->
-                <li data-transition="random" data-slotamount="1" data-masterspeed="300">
-                    <img src="_include/img/slider-images/slider_mem.jpg" alt="Image" data-fullwidthcentering="on">
-                    
-            		<div class="caption very_big_custom_text lfl stl"
-                         data-x="center"
-                         data-y="255"
-                         data-speed="300"
-                         data-start="500"
-                         data-easing="easeOutExpo" data-end="8400" data-endspeed="300" data-endeasing="easeInSine" >CHERUB FUND</div>
-
-                    <div class="caption custom_text lfl stl"
-                         data-x="center"
-                         data-y="324"
-                         data-speed="300"
-                         data-start="800"
-                         data-easing="easeOutExpo" data-end="8600" data-endspeed="300" data-endeasing="easeInSine" >TAG LINE/BRIEF DESCRIPTION</div>
-                         
-                     <div class="caption custom_text_link lfl stl"
-                         data-x="center"
-                         data-y="379"
-                         data-speed="300"
-                         data-start="1200"
-                         data-easing="easeOutExpo" data-end="8800" data-endspeed="300" data-endeasing="easeInSine" ><span class="color-text">SECOND LINE</span></div>
-                </li>
-                
-                <!-- THE SECOND SLIDE -->
-                <li data-transition="random" data-slotamount="1" data-masterspeed="300">
-                    <img src="_include/img/slider-images/image-02.jpg" alt="Image" data-fullwidthcentering="on">
-                    
-                    <div class="caption very_big_custom_text sfb"
-                         data-x="center"
-                         data-y="255"
-                         data-speed="300"
-                         data-start="500"
-                         data-easing="easeOutExpo" data-end="8400" data-endspeed="300" data-endeasing="easeInSine" >ULTRA RESPONSIVE</div>
-
-                    <div class="caption custom_text sfb"
-                         data-x="center"
-                         data-y="324"
-                         data-speed="300"
-                         data-start="800"
-                         data-easing="easeOutExpo" data-end="8600" data-endspeed="300" data-endeasing="easeInSine" >LOOKS AWESOME ON ANY DEVICES</div>
-                         
-                     <div class="caption custom_text_link sfb"
-                         data-x="center"
-                         data-y="379"
-                         data-speed="300"
-                         data-start="1200"
-                         data-easing="easeOutExpo" data-end="8800" data-endspeed="300" data-endeasing="easeInSine" ><a href="#">LEARN MORE</a></div>
-                </li>
-                
-                <!-- THE THIRD SLIDE -->
-                <li data-transition="random" data-slotamount="1" data-masterspeed="300">
-                    <img src="_include/img/slider-images/image-03.jpg" alt="Image" data-fullwidthcentering="on">
-                    
-                    <div class="caption very_big_custom_text sft"
-                         data-x="center"
-                         data-y="290"
-                         data-speed="300"
-                         data-start="500"
-                         data-easing="easeOutExpo" data-end="8400" data-endspeed="300" data-endeasing="easeInSine" >BE CREATIVE</div>
-
-                    <div class="caption custom_text sft"
-                         data-x="center"
-                         data-y="360"
-                         data-speed="300"
-                         data-start="800"
-                         data-easing="easeOutExpo" data-end="8600" data-endspeed="300" data-endeasing="easeInSine" >...AND ANIMATE ANYTHING YOU WANT!</div>
-                </li>
-                            
-            </ul>
-            
-        </div>
+<section id="image-static">
+    <div class="fullimage-container">
+    	<div class="pattern"></div>
+        <img src="_include/img/slider-images/slider_mem.jpg" />
     </div>
 </section>
 <!-- End Slider -->
@@ -258,15 +182,7 @@ $(document).ready(function(){
 <!-- End Footer -->
 
 <!-- Start Credits -->
-<section id="footer-credits">
-	<div class="container">
-    	<div class="row">
-        	<div class="span12">
-            	<p class="credits">&copy; 2013 Anubis. All rights reserved. Template by <a href="#">Alessio Atzeni</a>.</p>
-            </div>
-        </div>
-    </div>
-</section>
+<?php include '_include/php/credit.php'; ?>
 <!-- End Credits -->
 
 <!-- Back To Top -->

@@ -96,7 +96,7 @@
 	<div class="container">
     	<div class="row">
         	<div class="span12">
-            	<h3>We do our best to be an entreprenuer friendly investment group.  Most of the members of the group are entrepreneurs or have been an entreprenuers at one time.</h3>
+            	<h3>We do our best to be an entreprenuer friendly investment group.  Most of the members of the group are entrepreneurs or have been an entreprenuer at one time.</h3>
                 <span class="arrow"></span>
             </div>
         </div>
@@ -116,7 +116,7 @@
     </div>
     <div class="row">
     	<div class="span12" align="center">
-    		<h3>How my company can be considered for an investment into the Cherub Fund</h3>
+    		<h3>How my company can be considered for an investment into the Cherub Fund?</h3>
     	</div>
     	<div class="span6">
     		<p>Our members find companies and we take a look at them as a group.</p>
@@ -127,7 +127,7 @@
     </div>
     <div class="row">
     	<div class="span12">
-    		<h3>What the Cherub Fund looks for in an investable company</h3>
+    		<h3>What does the Cherub Fund look for in an investable company?</h3>
     		<ul>
     			<li><b>A strong team</b></li>
     			<li><b>A committed team</b></li>
@@ -184,15 +184,7 @@ You can find more about Awesome Inc at our website <a href="http://awesomeinc.or
 <!-- End Footer -->
 
 <!-- Start Credits -->
-<section id="footer-credits">
-	<div class="container">
-    	<div class="row">
-        	<div class="span12">
-            	<p class="credits">&copy; 2013 Anubis. All rights reserved. Template by <a href="#">Alessio Atzeni</a>.</p>
-            </div>
-        </div>
-    </div>
-</section>
+<?php include '_include/php/credit.php'; ?>
 <!-- End Credits -->
 
 <!-- Back To Top -->

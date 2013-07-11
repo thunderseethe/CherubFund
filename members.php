@@ -122,7 +122,7 @@
     <section id="portfolio" class="container">
         <div class="row">
         
-            <div id="portfolio-projects">
+            <div id="portfolio-projects" align=center>
                 <ul id="projects">
                 	<?php
                 		$raw_names = file('_include/members.txt', FILE_IGNORE_NEW_LINES);
@@ -131,7 +131,7 @@
                 			$names[] = explode(";", $row);
                 		}
                 		foreach($names as $name){
-                    	echo '<li class="item-project span3 design">
+                    	echo '<li class="item-project span3 design" style="width:240px;height:240px;">
                         	<h5>
                         	    <a href="'.$name[1].'" target="_blank">'.$name[0].'<br/>'.$name[2].'</a>
                         	</h5>
@@ -368,15 +368,7 @@
 <!-- End Footer -->
 
 <!-- Start Credits -->
-<section id="footer-credits">
-	<div class="container">
-    	<div class="row">
-        	<div class="span12">
-            	<p class="credits">&copy; 2013 Anubis. All rights reserved. Template by <a href="#">Alessio Atzeni</a>.</p>
-            </div>
-        </div>
-    </div>
-</section>
+<?php include '_include/php/credit.php'; ?>
 <!-- End Credits -->
 
 <!-- Back To Top -->

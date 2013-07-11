@@ -161,15 +161,7 @@
 <!-- End Footer -->
 
 <!-- Start Credits -->
-<section id="footer-credits">
-	<div class="container">
-    	<div class="row">
-        	<div class="span12">
-            	<p class="credits">&copy; 2013 Anubis. All rights reserved. Template by <a href="#">Alessio Atzeni</a>.</p>
-            </div>
-        </div>
-    </div>
-</section>
+<?php include '_include/php/credit.php'; ?>
 <!-- End Credits -->
 
 <!-- Back To Top -->
